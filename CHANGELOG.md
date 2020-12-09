@@ -1,13 +1,128 @@
+## [1.7.1](https://github.com/vuejs/vuepress/compare/v1.7.0...v1.7.1) (2020-10-15)
+
+
+### Bug Fixes
+
+* **$core:** add missing styles for OutboundLink ([#2662](https://github.com/vuejs/vuepress/issues/2662)) ([e2b6641](https://github.com/vuejs/vuepress/commit/e2b6641))
+* **$core:** reference correct canonical Url frontmatter property (fix [#2665](https://github.com/vuejs/vuepress/issues/2665)) ([fbf5e5d](https://github.com/vuejs/vuepress/commit/fbf5e5d))
+
+
+
+# [1.7.0](https://github.com/vuejs/vuepress/compare/v1.6.0...v1.7.0) (2020-10-13)
+
+
+### Bug Fixes
+
+* **$core:** [#2627](https://github.com/vuejs/vuepress/issues/2627) Dup ID violates HTML5-4 ([#2650](https://github.com/vuejs/vuepress/issues/2650)) ([931e7d9](https://github.com/vuejs/vuepress/commit/931e7d9))
+* adds accessibility to code-group component ([#2630](https://github.com/vuejs/vuepress/issues/2630)) ([35865ec](https://github.com/vuejs/vuepress/commit/35865ec))
+* scroll hash encoded when non-english chars are used fix [#2633](https://github.com/vuejs/vuepress/issues/2633) ([#2639](https://github.com/vuejs/vuepress/issues/2639)) ([5fcbd88](https://github.com/vuejs/vuepress/commit/5fcbd88))
+* textlint bug causing PR's to fail checks fix [#2636](https://github.com/vuejs/vuepress/issues/2636) ([#2637](https://github.com/vuejs/vuepress/issues/2637)) ([64e92ca](https://github.com/vuejs/vuepress/commit/64e92ca))
+
+
+### Features
+
+* **$core:** add canonical link to frontmatter ([#2658](https://github.com/vuejs/vuepress/issues/2658)) ([ff6c51a](https://github.com/vuejs/vuepress/commit/ff6c51a))
+
+
+
+# [1.6.0](https://github.com/vuejs/vuepress/compare/v1.5.4...v1.6.0) (2020-09-25)
+
+
+### Features
+
+* **$theme-default:** add code group and code block components ([#2594](https://github.com/vuejs/vuepress/issues/2594)) ([394c4f6](https://github.com/vuejs/vuepress/commit/394c4f6))
+* **$theme-default:** inform screen readers link opens in new tab/window (fix [#2601](https://github.com/vuejs/vuepress/issues/2601)) ([#2603](https://github.com/vuejs/vuepress/issues/2603)) ([8d10119](https://github.com/vuejs/vuepress/commit/8d10119))
+
+
+
+## [1.5.4](https://github.com/vuejs/vuepress/compare/v1.5.3...v1.5.4) (2020-08-23)
+
+
+### Bug Fixes
+
+* **$core:** decode regularPath when generate router config (fix [#1946](https://github.com/vuejs/vuepress/issues/1946)) ([#1947](https://github.com/vuejs/vuepress/issues/1947)) ([dd26c7c](https://github.com/vuejs/vuepress/commit/dd26c7c))
+* **$shared-utils:** fix date parse logic for permalinks ([#2181](https://github.com/vuejs/vuepress/issues/2181)) ([d4d0380](https://github.com/vuejs/vuepress/commit/d4d0380))
+* **$shared-utils:** replace diacritics with regex ([#1855](https://github.com/vuejs/vuepress/issues/1855)) ([a03e93d](https://github.com/vuejs/vuepress/commit/a03e93d))
+* **$theme-default:** overlap navbar dropdown menus (fix [#2227](https://github.com/vuejs/vuepress/issues/2227)) ([#2365](https://github.com/vuejs/vuepress/issues/2365)) ([ceb0fa9](https://github.com/vuejs/vuepress/commit/ceb0fa9))
+* **$theme-default:** remove invalidate aria-labelledby on homepage title([#2277](https://github.com/vuejs/vuepress/issues/2277)) ([94a7de4](https://github.com/vuejs/vuepress/commit/94a7de4))
+
+
+
+## [1.5.3](https://github.com/vuejs/vuepress/compare/v1.5.2...v1.5.3) (2020-08-05)
+
+
+### Bug Fixes
+
+* **$theme-default:** fix editLink for repos hosted on gitlab.com ([#2523](https://github.com/vuejs/vuepress/issues/2523)) ([1c3967c](https://github.com/vuejs/vuepress/commit/1c3967c))
+* add toml dependencyt to shared-utils ([b858a6e](https://github.com/vuejs/vuepress/commit/b858a6e))
+* regular files should not be executable ([#2535](https://github.com/vuejs/vuepress/issues/2535)) ([ffb8527](https://github.com/vuejs/vuepress/commit/ffb8527))
+* **$theme-default:** improve last-updated text color contrast ([#2282](https://github.com/vuejs/vuepress/issues/2282)) ([7ca9fbc](https://github.com/vuejs/vuepress/commit/7ca9fbc))
+* allows no rel attribute on external links in the nav ([#2338](https://github.com/vuejs/vuepress/issues/2338)) ([b343cd3](https://github.com/vuejs/vuepress/commit/b343cd3))
+* **$core:**  style loss under build  for package that specifies `sideEffects: false` (fix [#2350](https://github.com/vuejs/vuepress/issues/2350)) ([#2471](https://github.com/vuejs/vuepress/issues/2471)) ([7e29900](https://github.com/vuejs/vuepress/commit/7e29900))
+* **$markdown:** line highlighting not working correctly when importing code snippets ([#2441](https://github.com/vuejs/vuepress/issues/2441)) ([d0f2e42](https://github.com/vuejs/vuepress/commit/d0f2e42))
+
+
+### Features
+
+* **$theme-default:** add initial open group index option ([#2408](https://github.com/vuejs/vuepress/issues/2408)) ([465ae40](https://github.com/vuejs/vuepress/commit/465ae40))
+
+
+
+## [1.5.2](https://github.com/vuejs/vuepress/compare/v1.5.1...v1.5.2) (2020-06-14)
+
+
+### Bug Fixes
+
+* **$core:** check if meta is from head before removing it ([#2403](https://github.com/vuejs/vuepress/issues/2403)) ([3c94f71](https://github.com/vuejs/vuepress/commit/3c94f71))
+* **$theme-default:** handle algolia search result with Chinese hash (close: [#2431](https://github.com/vuejs/vuepress/issues/2431)) ([#2432](https://github.com/vuejs/vuepress/issues/2432)) ([6183840](https://github.com/vuejs/vuepress/commit/6183840))
+
+
+### Features
+
+* **$theme-default:** allow 'auto' in defined sidebars (close: [#1252](https://github.com/vuejs/vuepress/issues/1252)) ([#2380](https://github.com/vuejs/vuepress/issues/2380)) ([597f83b](https://github.com/vuejs/vuepress/commit/597f83b))
+
+
+
+## [1.5.1](https://github.com/vuejs/vuepress/compare/v1.5.0...v1.5.1) (2020-06-09)
+
+
+### Bug Fixes
+
+* **$core**: HMR issue caused by chokidar v3 (close: [#2392](https://github.com/vuejs/vuepress/issues/2392)) ([#2436](https://github.com/vuejs/vuepress/issues/2392)) ([7e9d0c1](https://github.com/vuejs/vuepress/commit/7e9d0c1f42196dee52daabfaf796e0cdaa7bd6eb))
+* **$shared-utils:** use title variable for homepage (close: [#2247](https://github.com/vuejs/vuepress/issues/2247)) ([#2307](https://github.com/vuejs/vuepress/issues/2307)) ([869eb8d](https://github.com/vuejs/vuepress/commit/869eb8d))
+
+
+
+# [1.5.0](https://github.com/vuejs/vuepress/compare/v1.4.1...v1.5.0) (2020-05-11)
+
+
+### Bug Fixes
+
+* **$core:** include polyfills correctly (close [#1168](https://github.com/vuejs/vuepress/issues/1168)) ([#2317](https://github.com/vuejs/vuepress/issues/2317)) ([69c193a](https://github.com/vuejs/vuepress/commit/69c193a))
+* **$core:** no dynamic import style ([#1490](https://github.com/vuejs/vuepress/issues/1490)) ([c80c36b](https://github.com/vuejs/vuepress/commit/c80c36b))
+
+
+### Features
+
+* **$markdown:** snippet partial import ([#2225](https://github.com/vuejs/vuepress/issues/2225)) ([2f1327b](https://github.com/vuejs/vuepress/commit/2f1327b))
+
+
+### Reverts
+
+* **fix($theme-default)**: close dropdown on mouseout (fix [#2227](https://github.com/vuejs/vuepress/issues/2227))" ([f54b389](https://github.com/vuejs/vuepress/commit/f54b389))
+
+
+
 ## [1.4.1](https://github.com/vuejs/vuepress/compare/v1.4.0...v1.4.1) (2020-04-15)
 
 
 ### Bug Fixes
 
 * **$core:** missing 404 page (close [#2248](https://github.com/vuejs/vuepress/issues/2248)) ([#2250](https://github.com/vuejs/vuepress/issues/2250)) ([28a4eab](https://github.com/vuejs/vuepress/commit/28a4eab))
+* **$core:** duplicate meta tags ([#2164](https://github.com/vuejs/vuepress/issues/2164)) ([01cd096](https://github.com/vuejs/vuepress/commit/01cd096))
 * **$plugin-search:** match non-ASCII chars (close [#2242](https://github.com/vuejs/vuepress/issues/2242)) ([#2283](https://github.com/vuejs/vuepress/issues/2283)) ([9f3f49c](https://github.com/vuejs/vuepress/commit/9f3f49c))
 * **$shared-utils:** fail to resolve markdown-it plugins (close [#2286](https://github.com/vuejs/vuepress/issues/2286))([#2289](https://github.com/vuejs/vuepress/issues/2289)) ([16df156](https://github.com/vuejs/vuepress/commit/16df156))
 * **$theme-default:** close dropdown on mouseout (fix [#2227](https://github.com/vuejs/vuepress/issues/2227)) ([#2303](https://github.com/vuejs/vuepress/issues/2303)) ([430b917](https://github.com/vuejs/vuepress/commit/430b917))
-* duplicate meta tags ([#2164](https://github.com/vuejs/vuepress/issues/2164)) ([01cd096](https://github.com/vuejs/vuepress/commit/01cd096))
 
 
 
@@ -16,11 +131,10 @@
 
 ### Bug Fixes
 
-* fail to test specific package ([#2099](https://github.com/vuejs/vuepress/issues/2099)) ([0aadf05](https://github.com/vuejs/vuepress/commit/0aadf05))
-* opencollective postinstall failure not being ignored on Windows([#2177](https://github.com/vuejs/vuepress/issues/2177)) ([a9759c0](https://github.com/vuejs/vuepress/commit/a9759c0))
 * **$plugin-pwa:** work with register-service-worker 1.7.0 (close [#2222](https://github.com/vuejs/vuepress/issues/2222)) ([#2229](https://github.com/vuejs/vuepress/issues/2229)) ([604052b](https://github.com/vuejs/vuepress/commit/604052b))
 * **$shared-utils:** Slugify em/en dash in urls ([#2174](https://github.com/vuejs/vuepress/issues/2174)) ([8d9968d](https://github.com/vuejs/vuepress/commit/8d9968d))
 * **$theme-default:** remove error logs for nested sidebar groups ([#2191](https://github.com/vuejs/vuepress/issues/2191)) ([c3a943c](https://github.com/vuejs/vuepress/commit/c3a943c))
+* **$test-utils:** fail to test specific package ([#2099](https://github.com/vuejs/vuepress/issues/2099)) ([0aadf05](https://github.com/vuejs/vuepress/commit/0aadf05))
 
 
 ### Features
@@ -53,7 +167,7 @@
 
 ### Bug Fixes
 
-* update known command list ([#2146](https://github.com/vuejs/vuepress/issues/2146)) ([2b25740](https://github.com/vuejs/vuepress/commit/2b25740))
+* **$cli:** update known command list ([#2146](https://github.com/vuejs/vuepress/issues/2146)) ([2b25740](https://github.com/vuejs/vuepress/commit/2b25740))
 * **$cli:** inferUserDocsDirectory ignore all node_modules ([#2137](https://github.com/vuejs/vuepress/issues/2137)) ([df59909](https://github.com/vuejs/vuepress/commit/df59909))
 * **$core:** set NODE_ENV before creating app ([#1972](https://github.com/vuejs/vuepress/issues/1972)) ([245be8d](https://github.com/vuejs/vuepress/commit/245be8d))
 * **$core:** temp option in siteConfig has not effect (fix [#2038](https://github.com/vuejs/vuepress/issues/2038)) ([#2040](https://github.com/vuejs/vuepress/issues/2040)) ([0bb85a4](https://github.com/vuejs/vuepress/commit/0bb85a4))
@@ -75,8 +189,7 @@
 * **$cli:** Notify users of a newer release ([#2121](https://github.com/vuejs/vuepress/issues/2121)) ([7a09a72](https://github.com/vuejs/vuepress/commit/7a09a72))
 * **$cli:** run debug mode without clearing screen (close [#2100](https://github.com/vuejs/vuepress/issues/2100)) ([#2116](https://github.com/vuejs/vuepress/issues/2116)) ([c6a3cb5](https://github.com/vuejs/vuepress/commit/c6a3cb5))
 * **$core:** Add generator meta tag to ssr index.html template ([#2133](https://github.com/vuejs/vuepress/issues/2133)) ([2826cd7](https://github.com/vuejs/vuepress/commit/2826cd7))
-* add variable to config HomePage width (close [#2055](https://github.com/vuejs/vuepress/issues/2055)) ([#2086](https://github.com/vuejs/vuepress/issues/2086)) ([b72d145](https://github.com/vuejs/vuepress/commit/b72d145))
-* remove unnecessary check in moduleResolver.ts ([#2068](https://github.com/vuejs/vuepress/issues/2068)) ([bd71e43](https://github.com/vuejs/vuepress/commit/bd71e43))
+* **$theme-default:** add variable to config HomePage width (close [#2055](https://github.com/vuejs/vuepress/issues/2055)) ([#2086](https://github.com/vuejs/vuepress/issues/2086)) ([b72d145](https://github.com/vuejs/vuepress/commit/b72d145))
 * **$config:** Allow overriding badges colors (close [#1940](https://github.com/vuejs/vuepress/issues/1940)) ([#1941](https://github.com/vuejs/vuepress/issues/1941)) ([89a4a8d](https://github.com/vuejs/vuepress/commit/89a4a8d))
 * **$markdown:** `extractHeaders` option (close: [#1903](https://github.com/vuejs/vuepress/issues/1903)) ([#1945](https://github.com/vuejs/vuepress/issues/1945)) ([d2fef5d](https://github.com/vuejs/vuepress/commit/d2fef5d))
 * **$markdown:** Support for Rust file extension ([73089a0](https://github.com/vuejs/vuepress/commit/73089a0))
